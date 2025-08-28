@@ -1,9 +1,11 @@
+# This is a working calculator program
+
 var_1 = input("Please enter your first number: ")
 var_2 = input("Please enter your second number: ")
 # Adding these twqo numbers together won't work because  they are strings. We must cast them to correct datatype, a float.
 var_1 = float(var_1)
 var_2 = float(var_2)
-#Addition 
+# Addition 
 sum = var_1 + var_2
 print(f"The sum of {var_1} + {var_2} = {sum}")
 
@@ -24,3 +26,6 @@ print(f"{var_1} / {var_2} = {quotient}")
 # Power 
 the_power = var_1 ** var_2
 print(f"{var_1} ** {var_2} = {the_power}")
+
+# Hopefully this works
+# If problems are found, we will look into it.
